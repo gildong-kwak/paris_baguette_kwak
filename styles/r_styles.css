@@ -1,0 +1,132 @@
+html, body {}
+body {
+    margin: 30px auto;
+    width: 375px;
+    /* border: 3px solid lime; */
+}
+/* header */
+header {}
+header .status {
+    width: 375px; height: 42px;
+}
+header .status img {}
+header .top_bar {
+    width: 375px; height: 56px;
+    background-color: #023586;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 10px;
+}
+header .top_bar .left {}
+header .top_bar .left .header_logo {}
+header .top_bar .left .header_logo a {}
+header .top_bar .left .header_logo a img {
+    width: 151.5px; height: 36px;
+}
+header .top_bar .right {
+    display: flex;
+    flex-flow: row;
+}
+header .top_bar .right .search {
+    padding-right: 10px;
+}
+header .top_bar .right .search a {}
+header .top_bar .right .search a img {}
+header .top_bar .right .menu {}
+header .top_bar .right .menu a {}
+header .top_bar .right .menu a img {}
+/* header nav {}
+header nav a {} */
+/* request-가입신청 */
+main {
+    padding: 30px 16px;
+    background-color: #E6D9B7;
+    width: 375px;
+    text-align: center;
+}
+main #Reservation {}
+main #Reservation .rv {}
+main #Reservation .rv h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #023586;
+}
+main #Reservation .rv > p {
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
+main #Reservation .rv ul {}
+main #Reservation .rv ul li {}
+main #Reservation .rv ul li input {
+    width: 325px; height: 37px;
+    margin: 10px 10px;
+    border: none;
+    font-size: 0.75rem;
+    padding: 10px 10px;
+    background-color: #f1f1f1;
+    color: #023586;
+}
+main #Reservation .rv ul li input[name^=user] {}
+main #Reservation .rv ul li:nth-child(3) input {
+    width: 151.5px;
+}
+main #Reservation .rv ul li:last-child input {
+    width: 323px; height: 200p;
+}
+main #Reservation .rv ul li p {}
+main #Reservation .rv ul li select {
+    width: 151.5px;
+}
+/* request-check */
+main #Reservation .rv .check_title {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #023586;
+}
+main #Reservation .rv .check {
+    display: flex;
+    flex-flow: row wrap;
+}
+main #Reservation .rv .check li {
+    font-size: 0.75rem;
+    width: 83px;
+}
+main #Reservation .rv .check li input[name=check_check] {
+    display: none;
+}
+main #Reservation .rv .check li label {
+    background-image: url(../images/uncheck.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+main #Reservation .rv p {}
+main #Reservation .rv p #check_btn {
+    background-color: #f1f1f1;
+    color: #023586;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    width: 343px;
+    line-height: 43px;
+}
+/* footer */
+.btm_bar {}
+.btm_bar .bottom_bar {
+    width: 375px;
+    background-color: #023586;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+}
+.btm_bar .bottom_bar a {
+    color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+}
+.btm_bar .bottom_bar a img {
+    padding-bottom: 6px;
+}
+.btm_bar .bottom_bar a span {}

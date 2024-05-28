@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="빵, 프랜차이즈, 파리바게트, 창업, 맛있는, 모두가 사랑하는, 상담신청, 빵집">
+    <meta name="description" content="빵을 사랑하는 창업자님을 모십니다. 파리바게트는 남여노소 모두가 사랑하는 빵입니다. 저희와 함께하실 창업자님 어서 오세요.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파리바게뜨 | 프랜차이즈 창업</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/r_styles.css">
+</head>
+<body>
+    <header>
+        <p class="status"><img src="./images/status_bar.svg" alt="status bar"></p>
+        <div class="top_bar">
+            <div class="left">
+                <h1 class="header_logo"><a href="./index.html "><img src="./images/logo_white.png" alt="logo"></a></h1>
+            </div>
+            <div class="right">
+                <p class="search"><a href="#"><img src="./images/search.svg" alt="search"></a></p>
+                <p class="menu"><a href="#"><img src="./images/menu.svg" alt="menu"></a></p>
+            </div>
+        </div>
+<!--         <nav>
+            <a href="#">회사소개</a>
+            <a href="#">PB MAGAZINE</a>
+            <a href="#">PB STORY</a>
+            <a href="#">PRODUCTS</a>
+        </nav> -->
+    </header>
+    <main>
+        <form action="#" method="post" id="Reservation">
+            <fieldset class="rv">
+                <legend class="skip">가맹점 상담신청</legend>
+                <h3>가맹점 상담신청</h3>
+                <p>가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.</p>
+                <p>* 항목은필수입력사항입니다</p>
+                <ul>
+                    <li>
+                        <input type="text" name="user_name" placeholder="*이름" required>
+                    </li>
+                    <li>
+                        <input type="number" name="user_phone_num" placeholder="*휴대폰번호" required>
+                    </li>
+                    <li>
+                        <input type="email" name="user_mail" placeholder="*이메일" required>
+                        <p>@</p>
+                        <select name="mail_select">
+                            <option value="선택해주세요">선택해주세요</option>
+                            <option value="google">google.com</option>
+                            <option value="naver">naver.com</option>
+                            <option value="kakao">kakao.com</option>
+                            <option value="hanmail">hanmail.net</option>
+                            <option value="직접입력">직접입력</option>
+                        </select>
+                    </li>
+                    <li>
+                        <input type="text" name="user_area" placeholder="*창업희망지역" required>
+                    </li>
+                    <li>
+                        <input type="text" name="user_title" placeholder="*제목" required>
+                    </li>
+                    <li>
+                        <input type="text" name="user_memo" placeholder="*내용" required>
+                    </li>
+                </ul>
+                <p class="check_title">신청 계기</p>
+                <ul class="check">
+                    <li>
+                        <input type="radio" name="check_check" value="c_one" id="c_one">
+                        <label for="c_one">인터넷 검색</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="check_check" value="c_two" id="c_two">
+                        <label for="c_two">매장 방문</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="check_check" value="c_three" id="c_three">
+                        <label for="c_three">지인 소개</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="check_check" value="c_four" id="c_four">
+                        <label for="c_four">컨설팅/부동산</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="check_check" value="c_five" id="c_five">
+                        <label for="c_five">기타</label>
+                    </li>
+                </ul>
+                <p><button type="button" id="check_btn">상담 신청하기</button></p>
+            </fieldset>
+        </form>
+    </main>
+    <div class="btm_bar">
+        <nav class="bottom_bar">
+            <a href="./index.html"><img src="./images/store.svg" alt="매장소개"><span>매장소개</span></a>
+            <a href="#"><img src="./images/headset.svg" alt="상담신청"><span>상담신청</span></a>
+            <a href="#"><img src="./images/bag.svg" alt="배송서비스"><span>배송서비스</span></a>
+            <a href="#"><img src="./images/gift.svg" alt="프로모션"><span>프로모션</span></a>
+        </nav>
+    </div>
+</body>
+</html>
